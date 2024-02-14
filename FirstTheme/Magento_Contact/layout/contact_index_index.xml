@@ -1,0 +1,9 @@
+<page xmlns:xsi="http: //www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock class="Magento\Contact\Block\ContactForm" name="contactForm" template="Magento_Contact::contact.phtml">
+                <arguments>
+                    <argument name="contact_argument" xsi:type="string" >ContactArgument</argument>
+                </arguments>
+        </referenceBlock>
+    </body>
+</page>
